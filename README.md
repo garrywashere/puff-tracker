@@ -8,18 +8,20 @@ A web-based app to record and track puffs, to help visualise and limit smoking a
 
 ## 💡 Features
 
-- Record puffs taken
-- Time-stamp on each set of puffs
-- Check how many puffs taken in the last 24 at a glance
-- Graphs to see trends in smoking over time
+-   Record puffs taken
+-   Time-stamp on each set of puffs
+-   Check how many puffs taken in the last 24 at a glance
+-   Graphs to see trends in smoking over time
+-   Differentiation between vaping and smoking cigarettes
 
 ## ⚙️ Requirements
 
-- Coming soon
+-   Coming soon
 
 ## 🛠️ Installation
 
-- Coming soon
+-   Coming soon
+
 ## 🚀 Usage
 
-- Coming soon
+-   Coming soon

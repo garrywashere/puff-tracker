@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        {% if title %}
+        <title>{{title}} | Puff Tracker</title>
+        {% else %}
+        <title>Puff Tracker</title>
+        {% endif %} {% if not login %}
+        <link
+            rel="stylesheet"
+            href="{{ url_for('static', filename='styles/main.css') }}"
+        />
+        <script src="{{ url_for('static', filename='scripts/main.js') }}"></script>
+        {% else %}
+        <link
+            rel="stylesheet"
+            href="{{ url_for('static', filename='styles/login.css') }}"
+        />
+        <script src="{{ url_for('static', filename='scripts/login.js') }}"></script>
+        {% endif %} <link rel="icon" href="{{ url_for('static',
+        filename='images/cigarette.png') }}"
+    </head>
+    <body>
+        <header>
+            <h1>Puff Tracker</h1>
+        </header>
+        <main>{% block main %} {% endblock %}</main>
+        <footer>
+            <p>&copy; 2024 garrynet</p>
+        </footer>
+    </body>
+</html>
